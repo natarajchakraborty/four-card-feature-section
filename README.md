@@ -4,6 +4,11 @@
 
 ## Welcome! 👋
 
+## Solved! 
+
+[Code](https://github.com/natarajchakraborty/four-card-feature-section)
+[Demo Page URL](https://natarajchakraborty.github.io/four-card-feature-section/)
+
 Thanks for checking out this front-end coding challenge.
 
 [Frontend Mentor](https://www.frontendmentor.io) challenges help you improve your coding skills by building realistic projects.
