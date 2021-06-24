@@ -1,0 +1,139 @@
+@import 'config';
+
+body {
+    background-color: $verylightgray;
+    font-size: $basefontsize;
+    font-family: $basefont;
+    width: 100%;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-items: space-between;
+    align-items: center;
+    margin: 50px auto 0 auto;
+
+    &__main {
+        font-size: 27px;
+        font-weight: 100;
+        color: $grayishblue;
+    }
+
+    &__main--tag {
+        font-size: 27px;
+        font-weight: 500;
+        display: block;
+        padding-bottom: 1rem;
+        color: black;
+    }
+
+    &__desc {
+        color: $grayishblue;
+        font-size: 16px;
+        width: 85%;
+        text-align: center;
+    }
+    
+    @media (min-width: $desktop) {
+        &__main {
+            font-size: 40px;
+            font-weight: 100;
+            color: $grayishblue;
+        }
+    
+        &__main--tag {
+            font-size: 40px;
+            font-weight: 500;
+            display: block;
+            padding-bottom: 1rem;
+            color: black;
+        }
+    
+        &__desc {
+            color: $grayishblue;
+            font-size: 16px;
+            width: 35%;
+            text-align: center;
+        }
+    }
+}
+
+.card {
+    width: 350px;
+    height: 300px;
+    @media (min-width: $desktop) {
+        width: 400px;
+        height: 300px;
+    }
+    border: 4px solid;
+    border-top-color: $primary-cyan;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-radius: 8px;
+    box-shadow: 14px 17px 37px -5px rgba(0,0,0,0.75);
+    margin: 30px auto;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+
+    h1 {
+        text-align: left;
+        align-self: flex-start;
+    }
+
+    p {
+        margin-top: 10px;
+        color: $grayishblue;
+    }
+
+    img {
+        position: absolute;
+        bottom: 30px;
+        right: 30px;
+        align-self: flex-end;
+    }
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    @media (min-width: $desktop) {
+        flex-direction: row;
+    }
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 100px;
+
+    &__firstcol {
+        .card {
+            border-top-color: $primary-cyan;
+        }
+    }
+
+    &__secondcol {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+        .card:first-child {
+            border-top-color: $primary-red;
+        }
+
+        .card:last-child {
+            border-top-color: $primary-orange;
+        }
+    }
+
+    &__thirdcol {
+        .card {
+            border-top-color: $primary-blue;
+        }
+    }
+}

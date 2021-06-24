@@ -1,0 +1,22 @@
+$mobile: 375px;
+$desktop: 1440px;
+
+$basefontsize: 15px;
+
+$basefont: Poppins;
+
+$primary-red: hsl(0, 78%, 62%);
+$primary-cyan: hsl(180, 62%, 55%);
+$primary-orange: hsl(34, 97%, 64%);
+$primary-blue: hsl(212, 86%, 64%);
+
+$verydarkblue: hsl(234, 12%, 34%);
+$grayishblue: hsl(229, 6%, 66%);
+$verylightgray: hsl(0, 0%, 98%);
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
