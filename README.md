@@ -6,8 +6,6 @@
 
 [Demo Page URL](https://natarajchakraborty.github.io/four-card-feature-section/)
 
-![Design preview for the Four card feature section coding challenge](./design/desktop-preview.jpg)
-
 ## Design preview! 👋
 
 **Desktop Preview@1440px**
