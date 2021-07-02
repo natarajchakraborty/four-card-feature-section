@@ -12,6 +12,6 @@
 
 ![Desktop](./design/desktop-preview.jpg)
 
-**Mobile Design@375px@**
+**Mobile Design@375px**
 
 ![Mobile](./design/mobile-design.jpg)
